@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -8,14 +9,14 @@ body {
     text-align: right;
     display: flex;
     flex-wrap: wrap;
-    width: 661.5px;
-    height: 661.5px;
+    width: 500px;
+    height: 500px;
     border: 3px solid black;
 
 }
-.container >div{
-    width: 40px;
-    height: 40px;
-    border: 1px solid gray;
+.cell{
+    flex: 1 1 auto;
+    border: 1px solid rgb(200, 198, 198);
+    box-sizing: border-box
 
 }
